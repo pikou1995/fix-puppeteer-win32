@@ -1,0 +1,1 @@
+fix puppeteer on win32

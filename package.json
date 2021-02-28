@@ -1,0 +1,23 @@
+{
+  "name": "fix-puppeteer-win32",
+  "version": "1.0.0",
+  "description": "Fix puppeteer's .local-chromium on win32",
+  "homepage": "https://github.com/pikou1995/fix-puppeteer-win32#readme",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "postinstall": "node fix.js"
+  },
+  "keywords": [
+    "puppeteer",
+    "fix",
+    "win32"
+  ],
+  "author": "pikou",
+  "bugs": {
+    "url": "https://github.com/pikou1995/fix-puppeteer-win32/issues"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "puppeteer": "*"
+  }
+}
