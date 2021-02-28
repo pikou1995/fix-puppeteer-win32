@@ -1,6 +1,7 @@
 # fix-puppeteer-win32
 
-this package can fix chromium on win32 and has no side effects on other platform.
+Chromium may failed to launch because of the folder having the case sensitive attribute enabled. Refered from this [issue](https://github.com/puppeteer/puppeteer/issues/4054#issuecomment-570115307).  
+This package can fix the problem on win32 and has no side effects on other platform.
 
 ## Usage
 

@@ -32,8 +32,8 @@ function getChromiumPath() {
 }
 
 if (!fs.existsSync(chromiumPath)) {
-  console.warn(`No chromium found in ${chromiumPath}.`)
+  console.warn(`No chromium found in ${chromiumPath}`)
   process.exit(0)
 }
 
-execSync(`fix.cmd ${chromiumPath}`)
+execSync(`fsutil.exe file setCaseSensitiveInfo ${chromiumPath} disable`)
