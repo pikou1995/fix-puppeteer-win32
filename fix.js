@@ -22,7 +22,8 @@ function getChromiumPath() {
 
   const puppeteerChromiumPath = path.join(
     cwd,
-    'node_modules/puppeteer/.local-chromium'
+    cwd === __dirname ? '..' : 'node_modules',
+    'puppeteer/.local-chromium'
   )
   return path.join(
     puppeteerChromiumPath,
