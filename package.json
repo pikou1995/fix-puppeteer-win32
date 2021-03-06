@@ -12,6 +12,7 @@
   "keywords": [
     "puppeteer",
     "fix",
+    "chromium",
     "win32"
   ],
   "author": "pikou",
@@ -23,7 +24,7 @@
     "url": "git+https://github.com/pikou1995/fix-puppeteer-win32.git"
   },
   "license": "ISC",
-  "dependencies": {
+  "peerDependencies": {
     "puppeteer": "*"
   }
 }
