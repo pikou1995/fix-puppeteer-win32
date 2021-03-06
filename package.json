@@ -1,6 +1,6 @@
 {
   "name": "fix-puppeteer-win32",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Fix puppeteer's .local-chromium on win32",
   "homepage": "https://github.com/pikou1995/fix-puppeteer-win32#readme",
   "scripts": {
